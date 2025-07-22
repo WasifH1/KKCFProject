@@ -13,9 +13,9 @@ I'm 17 and go to high school in the Bronx who is an aspiring cybersecurity analy
 
 # Here are my projects:
 
-![Figma](./Customwebsite.png)
-![Figma](./figma1.png)
-![Figma](./figma2.png)
+![My Custom website](./Customwebsite.png)
+![Figma](./Figma1.png)
+![Figma](./Figma2.png)
 
 <img src="https://media.tenor.com/WqyBb70paeoAAAAM/cat-dap-pound.gif">
 #Connect with me
