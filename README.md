@@ -18,6 +18,7 @@ I'm 17 and go to high school in the Bronx who is an aspiring cybersecurity analy
 ![Figma](./Figma2.png)
 
 <img src="https://media.tenor.com/WqyBb70paeoAAAAM/cat-dap-pound.gif">
+
 # Connect with me
 [Replit](https://replit.com/@wasifbnx)
 [GitHub](https://github.com/WasifH1)
