@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wasif's Portfolio Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" /> <!-- Bootstrap CSS style sheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" /> <!-- Font Awesome CSS style sheet via Cloudflare: I found out you could use custom icons online so I imported this instead of using individual image links (which would be annoying and possibly make the website take longer to load. The solution to that would be downloading images and compressing them to a smaller resolution so the site loads faster, but I feel that this solution is much more efficient) -->
+  <link rel="stylesheet" href="style.css" /> <!-- My own CSS style sheet on the Replit itself-->
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script> <!-- Bootstrap JS script from the website -->
+  
+</head>
+<body>
+
+  <!-- Sidebar that uses the Cloudfare Font Awesome icons-->
+  <div class="sidebar d-flex flex-column align-items-center">
+    <a href="#"><i class="fas fa-bars"></i></a>
+    <a href="#"><i class="fas fa-user"></i></a>
+    <a href="#"><i class="fas fa-home"></i></a>
+    <a href="#"><i class="fab fa-youtube"></i></a>
+    <a href="#"><i class="fab fa-github"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+  </div>
+
+  <!-- Header at the top -->
+ <header class="header-section text-white text-center position-relative">
+  <div class="profile-picture position-absolute bottom-0 start-0"></div>
+</header>
+  
+  
+    </div>
+    <h1 class="fw-bold m-0 text-center text-md-start">Hey, I'm Wasif!</h1>
+  </header>
+
+  <!-- Intro Box With my Bio using Boostrap-->
+  <div class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card intro-box p-4 text-center">
+          <p class="mb-0">
+            I’m an aspiring cybersecurity analyst currently in high school, building a strong foundation in computer science, networking, and digital security.
+            I’m passionate about understanding how systems work and how to protect them from real-world threats.
+            Through self-driven learning, coding projects, and cybersecurity competitions, I’m gaining hands-on experience and sharpening my problem-solving skills.
+            I’m excited to continue my education and pursue a career where I can help organizations defend against cyberattacks and stay secure in an increasingly digital world.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+</body>
+
+
+
+
+  
+</html>
