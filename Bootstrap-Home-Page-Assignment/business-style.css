@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Gradient background for navigation bar at the top */
+.navbar {
+  background: linear-gradient(135deg, #87CEEB 0%, #98FB98 100%);
+  padding: 1rem 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+}
+
+.brand-name { /* the thing that says Wasif The Tech */
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  font-family: 'Georgia', serif;
+}
+
+.navbar-nav .nav-link { /* the links in the navigation bar */
+  color: #333 !important;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #2c5aa0 !important;
+}
+
+/* Main Content on the page */
+.main-content {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+}
+
+.main-heading {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #333;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  font-family: 'Georgia', serif;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 3rem;
+}
+
+/* the next two modules are for the button that says BOOK A SERVICE and add animations */
+
+.btn-service { 
+  background-color: #4472C4;
+  color: white;
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+}
+
+.btn-service:hover {
+  background-color: #365a96;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(68, 114, 196, 0.4);
+  color: white;
+  text-decoration: none;
+}
+
+/* About Section */
+.about-section {
+  background-color: #f8f9fa;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.service-card {
+  padding: 2rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-icon {
+  font-size: 3rem;
+  color: #4472C4;
+  margin-bottom: 1rem;
+}
+
+.service-card h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.service-card p {
+  color: #666;
+  font-size: 1rem;
+}
+
+/* Contact Section */
+.contact-section {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.contact-section .section-heading {
+  color: white;
+}
+
+.contact-section .lead {
+  color: #f1f1f1;
+}
+
+.contact-info {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-item {
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+}
+
+.contact-item i {
+  color: #87CEEB;
+  font-size: 1.3rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-heading {
+    font-size: 2.5rem;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+  }
+  
+  .brand-name {
+    font-size: 1.4rem;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+    margin-right: 0.5rem !important;
+  }
+  
+  .main-content {
+    padding: 2rem 0;
+  }
+}
+
+/* Modal Styling */
+.modal-content {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.modal-header {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  background: rgba(255,255,255,0.8);
+  border-radius: 15px 15px 0 0;
+}
+
+.modal-title {
+  color: #333;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.btn-close {
+  filter: none;
+  color: #000;
+}
+
+.form-label {
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.form-control, .form-select {
+  border: 2px solid rgba(68, 114, 196, 0.2);
+  border-radius: 8px;
+  padding: 0.75rem;
+  background-color: rgba(255,255,255,0.9);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #4472C4;
+  box-shadow: 0 0 0 0.2rem rgba(68, 114, 196, 0.25);
+  background-color: white;
+}
+
+.form-control::placeholder {
+  color: #666;
+}
+
+.btn-submit {
+  background-color: #4472C4;
+  color: white;
+  padding: 12px 40px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+}
+
+.btn-submit:hover {
+  background-color: #365a96;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(68, 114, 196, 0.4);
+  color: white;
+}
+
+/* GitHub icon styling */
+.navbar .fab.fa-github {
+  font-size: 1.5rem;
+}
+
+/* Skills Modal Styling */
+.skills-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.modal-xl .modal-content {
+  max-width: 90vw;
+}
+
+@media (max-width: 576px) {
+  .main-heading {
+    font-size: 2rem;
+  }
+  
+  .btn-service {
+    padding: 12px 30px;
+    font-size: 1rem;
+  }
+  
+  .modal-dialog {
+    margin: 1rem;
+  }
+  
+  .modal-title {
+    font-size: 1.1rem;
+  }
+}

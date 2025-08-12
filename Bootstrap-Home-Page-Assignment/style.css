@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  background: linear-gradient(to right, #1cc98d, #3a86ff);
+  min-height: 100vh;
+}
+
+/* Gradient background for navigation bar at the top */
+.navbar {
+  background: linear-gradient(135deg, #87CEEB 0%, #98FB98 100%);
+  padding: 1rem 0;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.brand-name { /* the thing that says Wasif The Tech */
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333;
+  font-family: 'Segoe UI', serif;
+}
+
+.navbar-nav .nav-link { /* the links in the navigation bar */
+  color: #333 !important;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #2c5aa0 !important;
+}
+
+
+h1 /* the thing that says Hey I'm Wasif!*/ {
+  font-size: 3rem;
+  padding-top: 50px;
+  font-family: Garmond;
+}
+
+img { /* the black circle that is supposed to be my profile picture (placeholder) */
+  padding-top: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.intro-box { /*the box in the middle with all my information*/
+  background: linear-gradient(to bottom, #a2d5f2, #8a5fd7);
+  border-radius: 10px;
+  color: black;
+  top: 75px;
+  font-size: 1.5rem;
+  padding: 2rem !important;
+  min-height: 200px;
+  outline: 2px solid black;
+  font-family: Monaco;
+}
+
+/* GitHub icon styling */
+.navbar .fab.fa-github {
+  font-size: 1.5rem;
+}
+
+/* Contact Modal Styling */
+.modal-content {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.modal-header {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  background: rgba(255,255,255,0.8);
+  border-radius: 15px 15px 0 0;
+}
+
+.modal-title {
+  color: #333;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.contact-info {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-item {
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+  color: #333;
+}
+
+.contact-item i {
+  color: #4472C4;
+  font-size: 1.3rem;
+}

@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wasif The Tech - Computer & Tech Repair in NYC</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="business-style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Navigation Header -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid px-4">
+      <div class="navbar-brand">
+        <h2 class="mb-0 brand-name">Wasif The Tech</h2>
+      </div>
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link me-4" href="index.html">Home</a>
+        <a class="nav-link me-4" href="#about">About</a>
+        <a class="nav-link me-4" href="#contact">Contact</a>
+        <a class="nav-link" href="https://github.com/Wasif-Habib" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-8">
+          <h1 class="main-heading mb-4">Computer & Tech<br>Repair in NYC</h1>
+          <p class="subtitle mb-5">I'm Wasif, and I'm here to meet your needs.</p>
+          <button type="button" class="btn btn-service" data-bs-toggle="modal" data-bs-target="#bookingModal">BOOK A SERVICE</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Booking Modal (really long 😔) -->
+  <div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="bookingModalLabel">Fill out the form below and I'll get back to you!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form id="bookingForm">
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="yourName" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="yourName" placeholder="John Doe" required>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="yourEmail" class="form-label">Your Email</label>
+                <input type="email" class="form-control" id="yourEmail" placeholder="john@example.com" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="deviceType" class="form-label">Device Type</label>
+                <input type="text" class="form-control" id="deviceType" placeholder="Laptop, Desktop, Phone, etc." required>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="location" class="form-label">Location</label>
+                <input type="text" class="form-control" id="location" placeholder="Queens, NY" required>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="serviceType" class="form-label">Service Type</label>
+              <select class="form-select" id="serviceType" required>
+                <option value="">Select a service...</option>
+                <option value="hardware-repair">Hardware Repair</option>
+                <option value="software-troubleshooting">Software Troubleshooting</option>
+                <option value="virus-removal">Virus Removal</option>
+                <option value="data-recovery">Data Recovery</option>
+                <option value="setup-installation">Setup & Installation</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <label for="problemDescription" class="form-label">Tell Me About Your Tech Problem</label>
+              <textarea class="form-control" id="problemDescription" rows="4" placeholder="What's wrong with your device? What makes this problem unique?" required></textarea>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-submit">Submit Request</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <section id="about" class="about-section py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="section-heading mb-4">About My Services</h2>
+          <p class="lead mb-4">Professional computer and tech repair services in New York City. I specialize in hardware troubleshooting, software issues, virus removal, and general tech support.</p>
+          <div class="row mt-5">
+            <div class="col-md-4 mb-4">
+              <div class="service-card">
+                <i class="fas fa-laptop service-icon"></i>
+                <h4>Laptop Repair</h4>
+                <p>Screen replacement, keyboard fixes, and hardware upgrades</p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="service-card">
+                <i class="fas fa-desktop service-icon"></i>
+                <h4>Desktop Support</h4>
+                <p>Hardware diagnostics, component replacement, and optimization</p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="service-card">
+                <i class="fas fa-shield-alt service-icon"></i>
+                <h4>Security & Recovery</h4>
+                <p>Virus removal, data recovery, and security setup</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="section-heading mb-4">Get In Touch</h2>
+          <p class="lead mb-4">Ready to fix your tech problems? Contact me to schedule a service.</p>
+          <div class="contact-info">
+            <div class="contact-item mb-3">
+              <i class="fas fa-envelope me-2"></i>
+              <span>wasif@wasifthetech.com</span>
+            </div>
+            <div class="contact-item mb-3">
+              <i class="fas fa-phone me-2"></i>
+              <span>(555) 123-TECH</span>
+            </div>
+            <div class="contact-item mb-3">
+              <i class="fas fa-map-marker-alt me-2"></i>
+              <span>New York City, NY</span>
+            </div>
+          </div>
+          <div class="mt-4">
+            <button type="button" class="btn btn-service" data-bs-toggle="modal" data-bs-target="#skillsModal">
+              View What I'm Made Of
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Modal -->
+  <div class="modal fade" id="skillsModal" tabindex="-1" aria-labelledby="skillsModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="skillsModalLabel">What I'm Made Of</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="https://github.com/Wasif-Habib/Wasif-Habib/blob/48abfe01f40803ef93cf750d5241b5153f37ed81/Screenshot%202025-08-08%20012120.png?raw=true" 
+               alt="Skills and Technologies" 
+               class="img-fluid skills-image">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
